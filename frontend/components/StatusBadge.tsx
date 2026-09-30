@@ -1,0 +1,2 @@
+export function colorFor(status:string){const s=status.toUpperCase();return s.includes("RED")||s.includes("CRITICAL")||s.includes("AVAILABILITY_RISK")?"var(--red)":s.includes("ORANGE")||s.includes("HIGH")||s.includes("ORDER_SOON")?"var(--orange)":s.includes("YELLOW")||s.includes("MONITOR")||s.includes("EXCESS")||s.includes("AGING")?"var(--yellow)":"var(--green)"}
+export default function StatusBadge({status}:{status:string}){const c=colorFor(status);return <span className="status"><i className="row-dot" style={{background:c}}/>{status.replaceAll("_"," ")}</span>}
