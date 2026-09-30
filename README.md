@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BrewSpare
 
 BrewSpare is a local-first brewery maintenance and spare-parts planning website. It connects machine condition, maintenance history, spare-part demand, supplier lead time, inventory carrying cost, and procurement timing into one decision-support workflow.
@@ -63,3 +64,6 @@ Then rerun `python -m app.seed`.
 
 ## Demo data
 All plant, financial, maintenance and sensor values are synthetic and intended for product demonstration only.
+=======
+# BrewSpare-hack
+>>>>>>> 09c19deeeb7cbfcbb579f620fe98b369c54197bf
